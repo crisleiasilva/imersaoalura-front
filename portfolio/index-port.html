@@ -4,19 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
+  <link rel="stylesheet" href="../style/estilos.css">
 </head>
 <body>
-  <header>
+  <header class="cabecalho">
+      <nav class="cabecalho__menu">
+          <a class="cabecalho__menu__link" href="index-port.html">Home</a> 
+          <a class="cabecalho__menu__link" href="index-about.html">Sobre Mim</a>
+      </nav>  
   </header>
-  <main>
-    <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
-    <p>Olá! Sou Crislei Silva, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-    <a href="https://github.com/crisleiasilva" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/crislei-a-silva/" target="_blank">Linkedin</a>
-    <img src="foto-cris.png" alt="foto Crislei">
+  <main class="apresentacao">
+    <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+        <p class="apresentacao__texto">Olá! Sou Crislei Silva, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+        <div class="apresentacao__link">
+          <h2 class="apresentacao__subtitulo">Acesse minhas redes:</h2>
+          <a class="apresentacao__botao" href="https://github.com/crisleiasilva" target="_blank">
+            <img src="../portfolio/imagens/Assets-aula2-curso3-html-e-css-main/assets/github.png" alt="logo GitHub">
+            GitHub
+          </a>
+          <a class="apresentacao__botao" href="https://www.linkedin.com/in/crislei-a-silva/" target="_blank">
+            <img src="../portfolio/imagens/Assets-aula2-curso3-html-e-css-main/assets/linkedin.png" alt="logo Linkedin">
+            Linkedin
+          </a>
+        </div>
+    </section>
+      <section id="container">
+          <img class="fig" src="foto-cris.png" alt="foto Crislei">
+       
+      </section>
   </main>
-  <footer>
-
+  <footer class="rodape">
+    <p>Desenvolvido por Crislei Silva</p>
   </footer>
 </body>
 </html>

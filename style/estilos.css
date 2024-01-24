@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Telex&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* height:100vh; */
+  box-sizing: border-box;
+  background-color: black;
+  color:#F6F6F6;
+}
+
+.cabecalho {
+  padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+  display:flex;
+  gap:80px;
+}
+
+.cabecalho__menu__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size:24px;
+  font-weight: 600;
+  color:#22D4FD;
+  text-decoration: none;
+
+}
+
+.apresentacao {
+  padding:5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titulo-destaque {
+  color:#22D4FD;
+}
+
+.apresentacao__conteudo {
+  width:615px;
+  display:flex;  
+  flex-direction: column;
+  gap:40px;
+}
+
+.apresentacao__titulo {
+  font-size: 36px; 
+  font-family: 'Krona One', sans-serif; 
+}
+
+.apresentacao__texto {
+  font-size: 24px;
+  font-family:'Montserrat', sans-serif ;
+ 
+}
+
+.apresentacao__link {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  gap:32px;
+}
+
+/* .apresentacao__link a {
+  font-size: 18px;
+  background-color: #007bff;
+  color:white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin:5px;
+} */
+
+.apresentacao__subtitulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.apresentacao__botao {
+  /* background-color: #22D4FD; */
+  display: flex;
+  justify-content: center;
+  gap:16px;
+  border: 2px solid #22D4FD;
+  font-size: 24px;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color:#F6F6F6;
+  font-family:'Montserrat', sans-serif ;
+  font-weight: 600;
+}
+
+.apresentacao__botao:hover {
+  background-color: #272727;
+}
+
+.rodape {
+  color:#000000;
+  background-color: #22D4FD;
+  padding:24px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  font-weight: 400;
+}
+
+ #container {
+  display: flexbox;
+  gap:50px;
+  flex-direction: row;
+  justify-content:space-between;
+  gap:80px;
+  
+} 
+
+.fig {
+  width: 380px;
+  height: 380px;
+  margin-left: 80px;
+  padding: 5% 15%;
+}
+  
